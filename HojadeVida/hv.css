@@ -1,0 +1,136 @@
+body{
+    background: #ffffff;
+    
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.costadoizquierdo{
+    text-align: center;
+    width: 25%;
+}
+
+.title{
+    width: 100%;
+    background-color: #148ddd;
+    height: 90px;
+    
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
+    font-family:'Roboto Serif', sans-serif;
+    font-size:x-large;
+    font-weight: bolder;
+    margin-left: 5%;
+    padding-top: 10%;
+
+}
+
+.nombre{
+    color: rgb(0, 0, 0);
+    font-family:'Roboto Serif', sans-serif;
+    font-size:x-large;
+    font-weight: bolder;
+}
+
+.estudio{
+    color: rgb(0, 0, 0);
+    font-family:'Roboto Serif', sans-serif;
+    font-size:large;
+}
+
+.info{
+    width: 90%;
+    background: #148ddd;
+    padding: 20px;
+}
+
+.info .imagenes{
+    width: 40px;
+    margin-left: 0%;
+    margin-bottom: 0.2%;
+}
+
+.info .informacion{
+    color: rgb(255, 255, 255);
+    font-family:'Roboto Serif', sans-serif;
+    font-size:larger;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 2px #ffffff solid; 
+    margin-bottom: 15%;
+}
+
+.info .infotitulo{
+    color: rgb(255, 255, 255);
+    font-family:'Roboto Serif', sans-serif;
+    font-size:larger;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.info .textoreferencias{
+    color: rgb(255, 255, 255);
+    font-family:'Roboto Serif', sans-serif;
+    font-size:larger;
+    text-align: center;
+    
+}
+
+.costadoderecho{
+    width:70%;
+    margin-left: 30px;
+    background-color: #ffffff;
+}
+
+.foto{
+    width: 200px;
+    height: 250px;
+    margin-left:50%;
+}
+.titulocostadoderecho{
+    color: black;
+    font-family:'Roboto Serif', sans-serif;
+    font-size:x-large;
+    font-weight: bolder;
+    border-bottom: 2px #077cb3 solid;
+}
+
+.contenido2{
+    color:black;
+    font-size:medium;
+    columns: 3;
+    -webkit-columns:2;
+    -moz-columns: 3; 
+}
+hr{
+    border-bottom: 2px #098dca solid;  
+}
+.firma{
+font-family: Palace Script MT;
+font-style: italic;
+font-size: 45px;
+margin-top: 33%;
+text-align: right;
+color: #000000;
+}
+.cc{
+    margin-top: -5%;
+    text-align: right;
+    color: #000000;
+}
+
+footer {
+    background-color: #098dca;
+  }
+
+.home{
+    width: 150px;
+    height: 70px;
+    margin-left:50%;
+}
